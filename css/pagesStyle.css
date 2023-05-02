@@ -1,0 +1,88 @@
+.cerrado-page {
+    margin: 20px auto;
+    font-size: 16px;
+ }
+
+.cerrado-introducao-page {
+    margin-bottom: 1.3rem;
+    margin: 20px;
+}
+
+
+.titulo-principal-page {
+    color: #0000f9;
+    text-align: center;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.bioma-imagem-page {
+    width: 300px;
+}
+
+
+.titulo-secundario-page{
+    text-align: center;
+    color: #0000f9;
+    padding: 1.5rem;
+    text-transform:capitalize;
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+    .cerrado-page {
+        width: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .titulo-principal-page {
+        padding: 20px;
+    }
+    .titulo-secundario-page{
+        padding: 3rem;
+    }
+
+    .bioma-imagem-page {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .cerrado-page {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.4;
+    }
+
+    .cerrado-introducao-page {
+        margin: 1.4rem;
+    }
+    .titulo-secundario-page{
+        padding: 3rem;
+    }
+
+    .bioma-imagem-page {
+        max-width: 250px;
+        float: left;
+        margin: 0px 20px 10px 10px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .bioma-imagem-page{
+        max-width: 200px;
+    }
+    .titulo-principal-page {
+        text-align: center;
+        font-size: 30px;
+
+    }
+    .titulo-secundario-page{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
