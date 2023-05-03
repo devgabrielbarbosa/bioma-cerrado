@@ -157,7 +157,7 @@
   .container-slider {
     display: flex;
     width: 110vh;
-    height: 400px;
+    height: 500px;
     align-items: center;
     justify-content: center;
     gap: 1rem;
