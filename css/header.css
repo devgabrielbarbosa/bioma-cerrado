@@ -3,7 +3,7 @@
     margin: 0 auto;
     justify-content: space-evenly;  
     align-items: center;
-    background: #0c0fca;
+    background: #296700;
 }
 
 
@@ -37,7 +37,11 @@
     padding: 15px;
     color: #fff8f8;
     text-decoration: none;
-    background: #0c0fca;
+    background: #296700;
+}
+
+#menu a:hover{
+    text-decoration: underline;
 }
 
 

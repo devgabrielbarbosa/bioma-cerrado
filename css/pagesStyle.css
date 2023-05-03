@@ -10,7 +10,7 @@
 
 
 .titulo-principal-page {
-    color: #0000f9;
+   color: black;
     text-align: center;
     margin: 10px;
     text-transform: capitalize;
@@ -23,7 +23,7 @@
 
 .titulo-secundario-page{
     text-align: center;
-    color: #0000f9;
+    color: black;
     padding: 1.5rem;
     text-transform:capitalize;
 }
@@ -47,7 +47,7 @@
     }
 
     .bioma-imagem-page {
-        max-width: 100%;
+        width: 50vh;
     }
 }
 
@@ -73,9 +73,16 @@
 }
 
 @media screen and (min-width: 1024px){
-    .bioma-imagem-page{
-        max-width: 200px;
+    .cerrado-page {
+        width: 1024px;
+        margin: 20px auto;
+        font-size: 16px;
     }
+    
+    .bioma-imagem-page{
+        width: 250px;
+    }
+
     .titulo-principal-page {
         text-align: center;
         font-size: 30px;

@@ -32,7 +32,7 @@ const frutas = [
         img: './img/cajui-cajuzinho-do-cerrado-foto-nivaldo-ferr.jpg',
         descricao: `O cajuzinho-do-cerrado (Anacardium humile), também 
         conhecido como cajuzinho-do-campo ou cajuí, é uma planta em forma de
-         arbustos encontrada nos estados de Mato Grosso, Mato Grosso do Sul, 
+         arbustos encontrada nos estados de Mato Grosso, Mato Grosso do Sul, Tocantins, 
          Minas Gerais e no Distrito Federal. O arbusto costuma habitar o Cerradão,
           o Cerrado, o Campo Sujo e o Campo Rupestre.
          A coleta de cajuzinho-do-cerrado também garante renda a agricultores familiares
@@ -255,3 +255,39 @@ function frutasCerrado() {
 
 frutasCerrado();
 
+const slider = document.querySelectorAll('.slider');
+const btnPrev = document.getElementById('prev-button');
+const btnNext = document.getElementById('next-button');
+
+let currentSlide = 0;
+
+function hideSlider() {
+  slider.forEach(item => item.classList.remove('on'))
+}
+
+function showSlider() {
+  slider[currentSlide].classList.add('on')
+}
+
+function nextSlider() {
+  hideSlider()
+  if(currentSlide === slider.length -1) {
+    currentSlide = 0
+  } else {
+    currentSlide++
+  }
+  showSlider()
+}
+
+function prevSlider() {
+  hideSlider()
+  if(currentSlide === 0) {
+    currentSlide = slider.length -1
+  } else {
+    currentSlide--
+  }
+  showSlider()
+}
+
+btnNext.addEventListener('click', nextSlider)
+btnPrev.addEventListener('click', prevSlider)
