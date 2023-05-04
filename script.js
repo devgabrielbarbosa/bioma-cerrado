@@ -27,6 +27,19 @@ const frutas = [
         alt: "Foto da bacuri",
     },
     {
+        id: 00,
+        nome: 'Coco-Babaçu',
+        img: './img/babaçu.jpg',
+        descricao: `O babaçu, também chamado bauaçu, baguaçu, auaçu, aguaçu, guaguaçu,
+         uauaçu, gebara-uçu, coco-de-macaco, coco-de-palmeira, coco-naiá, coco-pindoba e 
+         palha-branca, é uma espécie (Attalea speciosa) da família das palmeiras 
+         (Arecaceae), dotada de frutos drupáceos com sementes oleaginosas e comestíveis
+          das quais se extrai um óleo, empregado sobretudo na alimentação, remédios, além 
+          de ser alvo de pesquisas avançadas para a fabricação de biocombustíveis...`,
+        link: "./fruitpages/cocu-babacu.html",
+        alt: "Foto da bacuri",
+    },
+    {
         id: 01,
         nome: 'Cajuí',
         img: './img/cajui-cajuzinho-do-cerrado-foto-nivaldo-ferr.jpg',

@@ -49,6 +49,11 @@
     .bioma-imagem-page {
         width: 50vh;
     }
+    .bioma-imagem-page {
+        max-width: 250px;
+        float: left;
+        margin: 0px 20px 10px 10px;
+    }
 }
 
 @media screen and (min-width: 780px) {
