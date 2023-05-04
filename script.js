@@ -29,7 +29,7 @@ const frutas = [
     {
         id: 00,
         nome: 'Coco-Babaçu',
-        img: './img/babaçu.jpg',
+        img: './img/Babacu.jpeg',
         descricao: `O babaçu, também chamado bauaçu, baguaçu, auaçu, aguaçu, guaguaçu,
          uauaçu, gebara-uçu, coco-de-macaco, coco-de-palmeira, coco-naiá, coco-pindoba e 
          palha-branca, é uma espécie (Attalea speciosa) da família das palmeiras 
@@ -42,7 +42,7 @@ const frutas = [
     {
         id: 01,
         nome: 'Cajuí',
-        img: './img/cajui-cajuzinho-do-cerrado-foto-nivaldo-ferr.jpg',
+        img: './img/cajui.png',
         descricao: `O cajuzinho-do-cerrado (Anacardium humile), também 
         conhecido como cajuzinho-do-campo ou cajuí, é uma planta em forma de
          arbustos encontrada nos estados de Mato Grosso, Mato Grosso do Sul, Tocantins, 
@@ -93,9 +93,7 @@ const frutas = [
         Os frutos do jatobá-do-cerrado são apreciados in natura por populações rurais, e suas flores se destacam 
         na paisagem, sendo muitas vezes utilizadas para ornamentação de jardins e de vias públicas. Os morcegos
          são os principais agentes polinizadores do jatobá.
-        A sua floração ocorre nos meses de dezembro a fevereiro; e sua frutificação nos meses de agosto e setembro.
-         Em razão de sua polpa farinácea, seus frutos são utilizados na culinária para fazer mingau, biscoitos, pães e bolos. 
-         A polpa também é utilizada para a produção de geleias e licores...`,
+        A sua floração ocorre nos meses de dezembro a fevereiro; e sua frutificação nos meses de agosto e setembro...`,
         link: "./fruitpages/jatoba.html",
         alt: "Foto do jatobá",
     },

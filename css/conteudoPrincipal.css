@@ -206,17 +206,16 @@
 
     .titulo-principal {
         font-size: 5rem;
-        margin: 30px;
+
     }
 
     .frutas-single {
-        margin: 20px;
         padding: 20px;
         justify-content: center;
     }
 
     .frutas-imagem {
-        width: 150px;
+        width: 40vh;
         float: left;
         margin: 0px 10px 0px 20px;
     }
