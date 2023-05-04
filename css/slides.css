@@ -54,7 +54,7 @@
 @media screen and (min-width: 480px) {
   .container-slider {
     display: flex;
-    width: 470px;
+    width: 400px;
     height: 400px;
     align-items: center;
     justify-content: center;

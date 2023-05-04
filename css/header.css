@@ -79,12 +79,11 @@
         width: 100%;
         top: 130px;
         right: 0px;
-        transition: 0.6s;
+        transition: .9s;
         z-index: 1000;
         height: 0px;
         visibility: hidden;
         overflow-y: hidden;
-       
     }
 
     #menu a:after{
