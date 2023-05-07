@@ -37,17 +37,15 @@
     background: #296700;
 }
 
-#menu a:hover{
-    text-decoration: underline;
-}
+
 
 #menu a::after{
     content: "";
     display: block;
-    height: 2px;
+    height: 3px;
     width: 0%;
-    color: #fff8f8;
-    transition: 1s;
+    background: #fff8f8;
+    transition: 1.2s;
     position: relative;
 }
 
@@ -60,10 +58,7 @@
 }
 
 @media (max-width: 600px) {
-    #cabacalho {
-        display: flex;
-        background: #0c0fca;
-    }
+
 
     #header {
         max-width: 100%;
