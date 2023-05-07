@@ -3,11 +3,10 @@
     font-size: 16px;
  }
 
-.cerrado-introducao-page {
+ .cerrado-introducao-page {
     margin-bottom: 1.3rem;
     margin: 20px;
 }
-
 
 .titulo-principal-page {
    color: black;
@@ -20,7 +19,6 @@
     width: 300px;
 }
 
-
 .titulo-secundario-page{
     text-align: center;
     color: black;
@@ -28,16 +26,12 @@
     text-transform:capitalize;
 }
 
-
-
-
 @media screen and (min-width: 480px) {
     .cerrado-page {
         width: 100vh;
         display: flex;
         flex-direction: column;
     }
-
 
     .titulo-principal-page {
         padding: 20px;

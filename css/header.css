@@ -6,13 +6,11 @@
     background: #296700;
 }
 
-
 .logo {
     width: 100px;
     margin: 1rem;
     border-radius: 100%;
 }
-
 
 #header {
     height: 160px;
@@ -23,7 +21,6 @@
     justify-content: space-around;
     align-items: center;
 }
-
 
 #menu {
     display: flex;
@@ -43,7 +40,6 @@
 #menu a:hover{
     text-decoration: underline;
 }
-
 
 #menu a::after{
     content: "";
