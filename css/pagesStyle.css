@@ -9,14 +9,15 @@
 }
 
 .titulo-principal-page {
-   color: black;
+    color: black;
     text-align: center;
     margin: 10px;
     text-transform: capitalize;
 }
 
 .bioma-imagem-page {
-    width: 300px;
+    width: 400px;
+    margin-bottom: 10px;
 }
 
 .titulo-secundario-page{
@@ -72,14 +73,10 @@
 }
 
 @media screen and (min-width: 1024px){
-    .cerrado-page {
-        width: 1024px;
-        margin: 20px auto;
-        font-size: 16px;
-    }
+
     
     .bioma-imagem-page{
-        width: 250px;
+        width: 280px;
     }
 
     .titulo-principal-page {

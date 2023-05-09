@@ -117,7 +117,7 @@ const frutas = [
     {
         id: 03,
         nome: 'Buriti',
-        img: './img/buriti.jpg',
+        img: './img/Buriti (1).jpg',
         descricao: `O buriti (Mauritia flexuosa L.f.) é um fruto com forma elipsoidal,
         coloração castanho-avermelhado, podendo ser isento ou apresentar até dois caroços. 
         A camada externa é revestida por escamas brilhantes e, abaixo destas, há uma pasta
@@ -286,6 +286,23 @@ const frutas = [
          muito utilizados em infusão na aguardente...`,
         link: "./fruitpages/tucum.html",
         alt: "Foto da Tucum",
+    },
+    {
+        id: 014,
+        nome: 'Oiti',
+        img: './img/oiti.jpg',
+        descricao: `O Oiti (nome científico: Moquilea tomentosa (Benth.)
+        ,[1] também chamado goiti, oiti-da-praia, guaili, oiti cagão, 
+        oiti mirim, oitizeiro, tendo como sinônimo Licania tomentosa,
+         é uma árvore perenifólia brasileira arbórea da família Chrysobalanaceae 
+         proveniente do cerrado que ocorre nos estados do Amazonas, Pará, 
+         Bahia, Ceará, Minas Gerais, Piauí e no Tocantins. O oiti pode atingir entre oito e quinze metros de 
+         altura, oferecendo áreas de sombra avantajadas e consequentemente criando 
+         um conforto bioclimático. O oiti também é conhecido por nomes populares, 
+         como por exemplo: goiti-iba, manga-da-praia, milho-cozido, oiti-cagão
+         , oiticica, oitizeiro, entre outros...`,
+        link: "./fruitpages/oiti.html",
+        alt: "Foto da oiti",
     },
    
 ]
