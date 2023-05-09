@@ -292,7 +292,7 @@ const frutas = [
         nome: 'Oiti',
         img: './img/oiti.jpg',
         descricao: `O Oiti (nome científico: Moquilea tomentosa (Benth.)
-        ,[1] também chamado goiti, oiti-da-praia, guaili, oiti cagão, 
+        , também chamado goiti, oiti-da-praia, guaili, oiti cagão, 
         oiti mirim, oitizeiro, tendo como sinônimo Licania tomentosa,
          é uma árvore perenifólia brasileira arbórea da família Chrysobalanaceae 
          proveniente do cerrado que ocorre nos estados do Amazonas, Pará, 
